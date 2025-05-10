@@ -1,0 +1,142 @@
+2025-05-09 04:52:25,180 [INFO] Starting LLMThinkBench evaluation with parameters:
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "tasks": [
+    "sorting",
+    "comparison",
+    "even_count",
+    "find_minimum",
+    "mean"
+  ],
+  "datapoints": 100,
+  "folds": 3,
+  "range": [
+    -1000,
+    1000
+  ],
+  "list_sizes": [
+    8,
+    16
+  ],
+  "store_details": true,
+  "output_dir": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "max_tokens": 512,
+  "seed": 42
+}
+2025-05-09 04:53:01,249 [INFO] Loaded model Qwen/Qwen2.5-7B-Instruct with tensor_parallel_size=1 and gpu_memory_utilization=0.9
+2025-05-09 04:53:01,249 [INFO] 
+========================================
+Running task: sorting
+========================================
+2025-05-09 04:53:01,250 [INFO] 
+========================================
+Evaluating sorting with list size 8
+========================================
+2025-05-09 04:59:03,480 [INFO] Saved detailed results for test case 8 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_8/detailed_results_fold_1.json
+2025-05-09 05:05:46,939 [INFO] Saved detailed results for test case 8 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_8/detailed_results_fold_2.json
+2025-05-09 05:11:52,155 [INFO] Saved detailed results for test case 8 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_8/detailed_results_fold_3.json
+2025-05-09 05:11:52,156 [INFO] 
+========================================
+Evaluating sorting with list size 16
+========================================
+2025-05-09 05:19:40,559 [INFO] Saved detailed results for test case 16 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_16/detailed_results_fold_1.json
+2025-05-09 05:27:20,953 [INFO] Saved detailed results for test case 16 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_16/detailed_results_fold_2.json
+2025-05-09 05:34:15,936 [INFO] Saved detailed results for test case 16 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/sorting/test_case_16/detailed_results_fold_3.json
+2025-05-09 05:34:15,937 [INFO] 
+========================================
+Running task: comparison
+========================================
+2025-05-09 05:34:15,937 [INFO] 
+========================================
+Evaluating number comparison task
+========================================
+2025-05-09 05:37:38,561 [INFO] Saved detailed results for test case comparison fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/comparison/test_case_comparison/detailed_results_fold_1.json
+2025-05-09 05:40:58,553 [INFO] Saved detailed results for test case comparison fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/comparison/test_case_comparison/detailed_results_fold_2.json
+2025-05-09 05:44:28,999 [INFO] Saved detailed results for test case comparison fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/comparison/test_case_comparison/detailed_results_fold_3.json
+2025-05-09 05:44:29,000 [INFO] 
+========================================
+Running task: even_count
+========================================
+2025-05-09 05:44:29,000 [INFO] 
+========================================
+Evaluating even count with list size 8 (mixed_numbers)
+========================================
+2025-05-09 05:56:57,209 [INFO] Saved detailed results for test case 8 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_8/detailed_results_fold_1.json
+2025-05-09 06:08:54,891 [INFO] Saved detailed results for test case 8 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_8/detailed_results_fold_2.json
+2025-05-09 06:20:53,610 [INFO] Saved detailed results for test case 8 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_8/detailed_results_fold_3.json
+2025-05-09 06:20:53,611 [INFO] 
+========================================
+Evaluating even count with list size 16 (mixed_numbers)
+========================================
+2025-05-09 06:34:11,326 [INFO] Saved detailed results for test case 16 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_16/detailed_results_fold_1.json
+2025-05-09 06:48:04,767 [INFO] Saved detailed results for test case 16 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_16/detailed_results_fold_2.json
+2025-05-09 07:01:44,869 [INFO] Saved detailed results for test case 16 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/even_count/test_case_16/detailed_results_fold_3.json
+2025-05-09 07:01:44,870 [INFO] 
+========================================
+Running task: find_minimum
+========================================
+2025-05-09 07:01:44,871 [INFO] 
+========================================
+Evaluating find minimum with list size 8 (mixed numbers)
+========================================
+2025-05-09 07:12:22,850 [INFO] Saved detailed results for test case 8 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_8/detailed_results_fold_1.json
+2025-05-09 07:23:09,837 [INFO] Saved detailed results for test case 8 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_8/detailed_results_fold_2.json
+2025-05-09 07:34:00,253 [INFO] Saved detailed results for test case 8 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_8/detailed_results_fold_3.json
+2025-05-09 07:34:00,254 [INFO] 
+========================================
+Evaluating find minimum with list size 16 (mixed numbers)
+========================================
+2025-05-09 07:44:48,647 [INFO] Saved detailed results for test case 16 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_16/detailed_results_fold_1.json
+2025-05-09 07:55:14,483 [INFO] Saved detailed results for test case 16 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_16/detailed_results_fold_2.json
+2025-05-09 08:06:03,066 [INFO] Saved detailed results for test case 16 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/find_minimum/test_case_16/detailed_results_fold_3.json
+2025-05-09 08:06:03,071 [INFO] 
+========================================
+Running task: mean
+========================================
+2025-05-09 08:06:03,071 [INFO] 
+========================================
+Evaluating mean calculation with list size 8
+========================================
+2025-05-09 08:26:40,337 [INFO] Saved detailed results for test case 8 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_8/detailed_results_fold_1.json
+2025-05-09 08:45:53,003 [INFO] Saved detailed results for test case 8 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_8/detailed_results_fold_2.json
+2025-05-09 09:04:36,375 [INFO] Saved detailed results for test case 8 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_8/detailed_results_fold_3.json
+2025-05-09 09:04:36,376 [INFO] 
+========================================
+Evaluating mean calculation with list size 16
+========================================
+2025-05-09 09:33:32,735 [INFO] Saved detailed results for test case 16 fold 1 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_16/detailed_results_fold_1.json
+2025-05-09 10:02:17,140 [INFO] Saved detailed results for test case 16 fold 2 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_16/detailed_results_fold_2.json
+2025-05-09 10:29:37,961 [INFO] Saved detailed results for test case 16 fold 3 to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/mean/test_case_16/detailed_results_fold_3.json
+2025-05-09 10:29:37,972 [INFO] 
+Results Summary:
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| Task            | Accuracy       | Instruction Followed   | Tokens          | Chars           | Words          |
++=================+================+========================+=================+=================+================+
+| sorting_8       | 91.00% ± 2.16  | 100.00% ± 0.00         | 128.86 ± 78.35  | 338.73 ± 240.03 | 57.74 ± 40.65  |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| sorting_16      | 55.67% ± 4.19  | 100.00% ± 0.00         | 153.22 ± 81.30  | 321.57 ± 159.73 | 57.10 ± 27.25  |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| comparison      | 99.00% ± 0.82  | 100.00% ± 0.00         | 69.28 ± 1.52    | 247.10 ± 6.03   | 44.04 ± 1.01   |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| even_count_8    | 100.00% ± 0.00 | 100.00% ± 0.00         | 249.79 ± 68.04  | 639.85 ± 164.05 | 132.59 ± 32.91 |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| even_count_16   | 92.33% ± 0.47  | 100.00% ± 0.00         | 280.03 ± 57.86  | 649.79 ± 123.98 | 138.40 ± 26.62 |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| find_minimum_8  | 96.67% ± 0.94  | 100.00% ± 0.00         | 220.78 ± 78.64  | 571.12 ± 193.06 | 99.85 ± 32.59  |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| find_minimum_16 | 93.33% ± 0.47  | 92.67% ± 1.70          | 212.45 ± 117.01 | 533.09 ± 298.00 | 92.68 ± 50.37  |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| mean_8          | 88.67% ± 2.05  | 100.00% ± 0.00         | 362.37 ± 33.84  | 780.42 ± 71.51  | 168.00 ± 16.79 |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+| mean_16         | 2.00% ± 1.41   | 100.00% ± 0.00         | 506.92 ± 22.35  | 874.45 ± 62.91  | 208.74 ± 14.52 |
++-----------------+----------------+------------------------+-----------------+-----------------+----------------+
+2025-05-09 10:29:37,972 [INFO] Saved final report to Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/final_report.json
+2025-05-09 10:29:37,972 [INFO] 
+========================================
+LLMThinkBench evaluation complete
+2025-05-09 10:29:37,972 [INFO] All results saved to: Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225
+2025-05-09 10:29:37,972 [INFO] Log file: Qwen2.5-7B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_045225/eval_log_20250509_045225.txt

@@ -1,0 +1,142 @@
+2025-05-09 21:24:26,817 [INFO] Starting LLMThinkBench evaluation with parameters:
+{
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "tasks": [
+    "sorting",
+    "comparison",
+    "even_count",
+    "find_minimum",
+    "mean"
+  ],
+  "datapoints": 100,
+  "folds": 3,
+  "range": [
+    -1000,
+    1000
+  ],
+  "list_sizes": [
+    8,
+    16
+  ],
+  "store_details": true,
+  "output_dir": null,
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.98,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "max_tokens": 512,
+  "seed": 42
+}
+2025-05-09 21:25:04,091 [INFO] Loaded model meta-llama/Llama-3.1-8B-Instruct with tensor_parallel_size=1 and gpu_memory_utilization=0.98
+2025-05-09 21:25:04,091 [INFO] 
+========================================
+Running task: sorting
+========================================
+2025-05-09 21:25:04,100 [INFO] 
+========================================
+Evaluating sorting with list size 8
+========================================
+2025-05-09 21:25:39,258 [INFO] Saved detailed results for test case 8 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_8/detailed_results_fold_1.json
+2025-05-09 21:26:14,332 [INFO] Saved detailed results for test case 8 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_8/detailed_results_fold_2.json
+2025-05-09 21:26:49,331 [INFO] Saved detailed results for test case 8 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_8/detailed_results_fold_3.json
+2025-05-09 21:26:49,332 [INFO] 
+========================================
+Evaluating sorting with list size 16
+========================================
+2025-05-09 21:28:11,138 [INFO] Saved detailed results for test case 16 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_16/detailed_results_fold_1.json
+2025-05-09 21:29:37,630 [INFO] Saved detailed results for test case 16 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_16/detailed_results_fold_2.json
+2025-05-09 21:30:58,892 [INFO] Saved detailed results for test case 16 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/sorting/test_case_16/detailed_results_fold_3.json
+2025-05-09 21:30:58,893 [INFO] 
+========================================
+Running task: comparison
+========================================
+2025-05-09 21:30:58,903 [INFO] 
+========================================
+Evaluating number comparison task
+========================================
+2025-05-09 21:31:09,196 [INFO] Saved detailed results for test case comparison fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/comparison/test_case_comparison/detailed_results_fold_1.json
+2025-05-09 21:31:19,592 [INFO] Saved detailed results for test case comparison fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/comparison/test_case_comparison/detailed_results_fold_2.json
+2025-05-09 21:31:29,688 [INFO] Saved detailed results for test case comparison fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/comparison/test_case_comparison/detailed_results_fold_3.json
+2025-05-09 21:31:29,688 [INFO] 
+========================================
+Running task: even_count
+========================================
+2025-05-09 21:31:29,691 [INFO] 
+========================================
+Evaluating even count with list size 8 (mixed_numbers)
+========================================
+2025-05-09 21:31:38,610 [INFO] Saved detailed results for test case 8 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_8/detailed_results_fold_1.json
+2025-05-09 21:31:49,051 [INFO] Saved detailed results for test case 8 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_8/detailed_results_fold_2.json
+2025-05-09 21:31:59,329 [INFO] Saved detailed results for test case 8 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_8/detailed_results_fold_3.json
+2025-05-09 21:31:59,329 [INFO] 
+========================================
+Evaluating even count with list size 16 (mixed_numbers)
+========================================
+2025-05-09 21:32:10,139 [INFO] Saved detailed results for test case 16 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_16/detailed_results_fold_1.json
+2025-05-09 21:32:27,327 [INFO] Saved detailed results for test case 16 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_16/detailed_results_fold_2.json
+2025-05-09 21:32:38,047 [INFO] Saved detailed results for test case 16 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/even_count/test_case_16/detailed_results_fold_3.json
+2025-05-09 21:32:38,047 [INFO] 
+========================================
+Running task: find_minimum
+========================================
+2025-05-09 21:32:38,050 [INFO] 
+========================================
+Evaluating find minimum with list size 8 (mixed numbers)
+========================================
+2025-05-09 21:32:47,130 [INFO] Saved detailed results for test case 8 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_8/detailed_results_fold_1.json
+2025-05-09 21:32:56,058 [INFO] Saved detailed results for test case 8 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_8/detailed_results_fold_2.json
+2025-05-09 21:33:05,489 [INFO] Saved detailed results for test case 8 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_8/detailed_results_fold_3.json
+2025-05-09 21:33:05,489 [INFO] 
+========================================
+Evaluating find minimum with list size 16 (mixed numbers)
+========================================
+2025-05-09 21:33:15,138 [INFO] Saved detailed results for test case 16 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_16/detailed_results_fold_1.json
+2025-05-09 21:33:24,102 [INFO] Saved detailed results for test case 16 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_16/detailed_results_fold_2.json
+2025-05-09 21:33:45,260 [INFO] Saved detailed results for test case 16 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/find_minimum/test_case_16/detailed_results_fold_3.json
+2025-05-09 21:33:45,260 [INFO] 
+========================================
+Running task: mean
+========================================
+2025-05-09 21:33:45,264 [INFO] 
+========================================
+Evaluating mean calculation with list size 8
+========================================
+2025-05-09 21:36:22,911 [INFO] Saved detailed results for test case 8 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_8/detailed_results_fold_1.json
+2025-05-09 21:38:55,496 [INFO] Saved detailed results for test case 8 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_8/detailed_results_fold_2.json
+2025-05-09 21:41:32,317 [INFO] Saved detailed results for test case 8 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_8/detailed_results_fold_3.json
+2025-05-09 21:41:32,318 [INFO] 
+========================================
+Evaluating mean calculation with list size 16
+========================================
+2025-05-09 21:46:05,583 [INFO] Saved detailed results for test case 16 fold 1 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_16/detailed_results_fold_1.json
+2025-05-09 21:50:46,040 [INFO] Saved detailed results for test case 16 fold 2 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_16/detailed_results_fold_2.json
+2025-05-09 21:55:14,237 [INFO] Saved detailed results for test case 16 fold 3 to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/mean/test_case_16/detailed_results_fold_3.json
+2025-05-09 21:55:14,255 [INFO] 
+Results Summary:
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| Task            | Accuracy      | Instruction Followed   | Tokens         | Chars           | Words          |
++=================+===============+========================+================+=================+================+
+| sorting_8       | 94.00% ± 0.82 | 100.00% ± 0.00         | 27.84 ± 0.58   | 50.98 ± 1.91    | 8.01 ± 0.14    |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| sorting_16      | 51.00% ± 0.00 | 100.00% ± 0.00         | 67.97 ± 82.59  | 147.78 ± 275.62 | 27.70 ± 60.05  |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| comparison      | 76.67% ± 2.49 | 99.67% ± 0.47          | 7.13 ± 0.10    | 17.89 ± 0.45    | 2.11 ± 0.09    |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| even_count_8    | 40.33% ± 2.36 | 100.00% ± 0.00         | 6.81 ± 6.42    | 11.87 ± 22.55   | 1.58 ± 4.57    |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| even_count_16   | 23.67% ± 4.11 | 99.67% ± 0.47          | 9.32 ± 17.03   | 17.86 ± 44.80   | 2.81 ± 9.24    |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| find_minimum_8  | 92.00% ± 0.82 | 100.00% ± 0.00         | 6.19 ± 2.52    | 12.66 ± 8.92    | 1.12 ± 1.66    |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| find_minimum_16 | 82.00% ± 0.00 | 99.33% ± 0.94          | 9.59 ± 41.22   | 25.66 ± 157.52  | 3.85 ± 33.13   |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| mean_8          | 69.67% ± 2.87 | 100.00% ± 0.00         | 128.70 ± 22.26 | 335.03 ± 60.36  | 75.32 ± 13.84  |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+| mean_16         | 43.67% ± 1.25 | 100.00% ± 0.00         | 227.01 ± 53.02 | 549.31 ± 119.67 | 128.47 ± 33.81 |
++-----------------+---------------+------------------------+----------------+-----------------+----------------+
+2025-05-09 21:55:14,255 [INFO] Saved final report to Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/final_report.json
+2025-05-09 21:55:14,255 [INFO] 
+========================================
+LLMThinkBench evaluation complete
+2025-05-09 21:55:14,255 [INFO] All results saved to: Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426
+2025-05-09 21:55:14,256 [INFO] Log file: Llama-3.1-8B-Instruct_sorting_comparison_even_count_find_minimum_mean_20250509_212426/eval_log_20250509_212426.txt

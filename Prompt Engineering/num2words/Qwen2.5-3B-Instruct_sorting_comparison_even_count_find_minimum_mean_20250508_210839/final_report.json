@@ -1,0 +1,200 @@
+{
+  "sorting_8": {
+    "accuracy": {
+      "mean": 0.8,
+      "std": 0.0141
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 50.74,
+      "std": 2.0942
+    },
+    "word_count": {
+      "mean": 7.94,
+      "std": 0.2312
+    },
+    "output_tokens": {
+      "mean": 42.92,
+      "std": 1.6383
+    }
+  },
+  "sorting_16": {
+    "accuracy": {
+      "mean": 0.3233,
+      "std": 0.0249
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 91.54,
+      "std": 5.9952
+    },
+    "word_count": {
+      "mean": 15.73,
+      "std": 0.9365
+    },
+    "output_tokens": {
+      "mean": 80.45,
+      "std": 5.0465
+    }
+  },
+  "comparison": {
+    "accuracy": {
+      "mean": 0.89,
+      "std": 0.0
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 17.42,
+      "std": 0.0
+    },
+    "word_count": {
+      "mean": 2.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 7.0,
+      "std": 0.0
+    }
+  },
+  "even_count_8": {
+    "accuracy": {
+      "mean": 0.46,
+      "std": 0.0141
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 9.0,
+      "std": 0.0
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 6.0,
+      "std": 0.0
+    }
+  },
+  "even_count_16": {
+    "accuracy": {
+      "mean": 0.1567,
+      "std": 0.033
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 9.0,
+      "std": 0.0
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 6.0,
+      "std": 0.0
+    }
+  },
+  "find_minimum_8": {
+    "accuracy": {
+      "mean": 0.9533,
+      "std": 0.0047
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 12.0,
+      "std": 0.1414
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 8.0,
+      "std": 0.1414
+    }
+  },
+  "find_minimum_16": {
+    "accuracy": {
+      "mean": 0.8433,
+      "std": 0.0094
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 11.99,
+      "std": 0.2306
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 7.99,
+      "std": 0.2306
+    }
+  },
+  "mean_8": {
+    "accuracy": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 18.2,
+      "std": 6.7759
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 14.92,
+      "std": 6.7585
+    }
+  },
+  "mean_16": {
+    "accuracy": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "instruction_followed": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "response_length": {
+      "mean": 22.12,
+      "std": 6.2838
+    },
+    "word_count": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "output_tokens": {
+      "mean": 18.99,
+      "std": 6.2517
+    }
+  }
+}
